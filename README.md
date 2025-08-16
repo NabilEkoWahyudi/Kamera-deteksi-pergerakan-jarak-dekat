@@ -3,10 +3,6 @@
 ## 📝 Ringkasan
 Proyek ini adalah aplikasi **Computer Vision** berbasis **Python + OpenCV** yang dapat mendeteksi **pergerakan objek** dalam jangkauan kamera, sekaligus mengidentifikasi entitas (manusia, kendaraan, hewan, dll.) menggunakan model **MobileNet SSD**.  
 
-Sistem dilengkapi dengan **radius deteksi jarak dekat** (lingkaran di tengah layar). Jika objek yang bergerak terdeteksi berada di dalam radius tersebut, sistem akan memberikan label khusus `[DEKAT]`.  
-
----
-
 ## ⚙️ Fitur Utama
 - **Deteksi Pergerakan**  
   - Menggunakan perbedaan frame (frame differencing dengan `cv2.absdiff`).  
@@ -19,15 +15,8 @@ Sistem dilengkapi dengan **radius deteksi jarak dekat** (lingkaran di tengah lay
     - `cat`, `dog` (hewan peliharaan)  
     - dll.  
 
-- **Radius Jarak Dekat**  
-  - Lingkaran radius digambar di tengah layar.  
-  - Objek yang masuk area radius ditandai `[DEKAT]` dengan warna merah.  
-
 - **Visualisasi Real-time**  
-  - Bounding box objek + confidence score.  
-  - Lingkaran radius.  
-  - Label entitas + status `[DEKAT]` bila terdeteksi di radius.  
-
+  - Bounding box objek + confidence score.   
 ---
 
 ## 🚀 Instalasi & Menjalankan
