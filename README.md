@@ -33,7 +33,7 @@ Sistem dilengkapi dengan **radius deteksi jarak dekat** (lingkaran di tengah lay
 ## 🚀 Instalasi & Menjalankan
 ### 1. Clone repository & masuk ke folder proyek
 ```bash
-git clone https://github.com/username/proyek-deteksi-pergerakan.git
+git clone https://github.com/NabilEkoWahyudi/Kamera-deteksi-pergerakan-jarak-dekat.git
 cd Camera_Project
 python3 main.py
 
